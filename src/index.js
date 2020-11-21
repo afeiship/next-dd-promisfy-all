@@ -1,7 +1,7 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxDdPromisfy = nx.ddPromisfy || require('@feizheng/next-dd-promisfy');
+  var nx = global.nx || require('@jswork/next');
+  var nxDdPromisfy = nx.ddPromisfy || require('@jswork/next-dd-promisfy');
   var DEFAULT_OPTIONS = { suffix: '', intrusive: false };
 
   nx.ddPromisfyAll = function (inSource, inOptions) {

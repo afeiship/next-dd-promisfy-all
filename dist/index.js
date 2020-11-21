@@ -1,16 +1,16 @@
 /*!
- * name: @feizheng/next-dd-promisfy-all
+ * name: @jswork/next-dd-promisfy-all
  * description: Promisifies the entire object for next.
  * homepage: https://github.com/afeiship/next-dd-promisfy-all
  * version: 1.0.0
- * date: 2020-06-14T07:48:23.990Z
+ * date: 2020-11-21 09:38:39
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxDdPromisfy = nx.ddPromisfy || require('@feizheng/next-dd-promisfy');
+  var nx = global.nx || require('@jswork/next');
+  var nxDdPromisfy = nx.ddPromisfy || require('@jswork/next-dd-promisfy');
   var DEFAULT_OPTIONS = { suffix: '', intrusive: false };
 
   nx.ddPromisfyAll = function (inSource, inOptions) {
@@ -28,5 +28,3 @@
     module.exports = nx.ddPromisfyAll;
   }
 })();
-
-//# sourceMappingURL=next-dd-promisfy-all.js.map
