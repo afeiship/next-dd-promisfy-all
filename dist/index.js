@@ -3,7 +3,7 @@
  * description: Promisifies the entire object for next.
  * homepage: https://github.com/afeiship/next-dd-promisfy-all
  * version: 1.0.0
- * date: 2020-11-21 09:38:39
+ * date: 2020-11-21 09:50:22
  * license: MIT
  */
 

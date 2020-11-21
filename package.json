@@ -40,5 +40,13 @@
   },
   "dependencies": {
     "@jswork/next-dd-promisfy": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "dd",
+    "dingtalk",
+    "promisfy",
+    "all",
+    "multiple"
+  ]
 }
